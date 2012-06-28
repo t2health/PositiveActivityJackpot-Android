@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainback"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        layout="@layout/main_menu" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/list_wheeltopleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/wheeltopleft" />
+
+        <ImageView
+            android:id="@+id/list_wheeltop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/wheeltop" />
+
+        <ImageView
+            android:id="@+id/list_wheeltopright"
+            android:layout_width="76px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/wheeltoprighthandle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/list_wheelleft"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@drawable/wheelleft" />
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/list_activityWheel"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="Casino wheel"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/list_wheelright"
+            android:layout_width="76px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@drawable/wheelrighthandle1"
+            android:contentDescription="jackpot handle" 
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/list_wheelbottomleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/wheelbottomleft" />
+
+        <ImageView
+            android:id="@+id/list_wheelbottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/wheelbottom" />
+
+        <ImageView
+            android:id="@+id/list_wheelbottomright"
+            android:layout_width="76px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/wheelbottomrighthandle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="20"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/txt_List_Summary"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/whitebox"
+            android:ellipsize="none"
+            android:gravity="center_vertical|center_horizontal"
+            android:minLines="2"
+            android:singleLine="false"
+            android:text=""
+            android:textColor="#000000"
+            style="@style/ScaleFontMedium" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_List_BottomPrev"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/blueboxbutton"
+                android:minHeight="30dp"
+                android:text="Previous"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_List_BottomNext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/blueboxbutton"
+                android:minHeight="30dp"
+                android:text="Next"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/dialogbody"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" 
+            style="@style/ScaleFontMedium"
+            android:text=""/>
+
+    <CheckBox 
+         android:id="@+id/dontShowAgain"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="12sp"
+            android:text="@string/general_notips"
+            />
+    
+    <Button 
+        android:id="@+id/btnOK"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/general_ok"
+            style="@style/ScaleFontMedium"
+        />
+
+</LinearLayout>

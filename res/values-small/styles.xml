@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SMALL -->
+<resources>
+    <style name="ScaleFontSmall" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="ScaleFontMedium" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="ScaleFontLarge" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
+

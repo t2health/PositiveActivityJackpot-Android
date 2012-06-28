@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        layout="@layout/main_menu" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/mainback"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0" />
+
+        <!-- Box Start -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:android1="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" />
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:android1="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/blueboxbutton"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ivlearn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5"
+                    android:contentDescription="@string/setup_learn"
+                    android:src="@drawable/icongear" />
+
+                <TextView
+                    android:id="@+id/tvlearn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minLines="2"
+                    android:singleLine="false"
+                    android:text="@string/setup_learn"
+                    android:textColor="#ffffff"
+                    style="@style/ScaleFontLarge"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" />
+        </LinearLayout>
+        <!-- Box End -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0" />
+
+        <!-- Box Start -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:android1="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" />
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:android1="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/blueboxbutton"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ivchoosecontacts"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5"
+                    android:contentDescription="@string/setup_contacts"
+                    android:src="@drawable/icongear" />
+
+                <TextView
+                    android:id="@+id/tvchoosecontacts"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minLines="2"
+                    android:singleLine="false"
+                    android:text="@string/setup_contacts"
+                    android:textColor="#ffffff"
+                    style="@style/ScaleFontLarge"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" />
+        </LinearLayout>
+        <!-- Box End -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0" />
+
+        <!-- Box Start -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:android1="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" />
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:android1="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/blueboxbutton"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ivchooseactivities"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5"
+                    android:contentDescription="@string/setup_activities"
+                    android:src="@drawable/icongear" />
+
+                <TextView
+                    android:id="@+id/tvchooseactivities"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minLines="2"
+                    android:singleLine="false"
+                    android:text="@string/setup_activities"
+                    android:textColor="#ffffff"
+                    style="@style/ScaleFontLarge"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" />
+        </LinearLayout>
+        <!-- Box End -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0" />
+
+        <!-- Box Start -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:android1="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" />
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:android1="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/blueboxbutton"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ivpreferences"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5"
+                    android:contentDescription="@string/setup_prefs"
+                    android:src="@drawable/icongear" />
+
+                <TextView
+                    android:id="@+id/tvpreferences"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minLines="2"
+                    android:singleLine="false"
+                    android:text="@string/setup_prefs"
+                    android:textColor="#ffffff"
+                    style="@style/ScaleFontLarge"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" />
+        </LinearLayout>
+        <!-- Box End -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    id="selected"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/wheelrighthandle1"
+        android:duration="20"/>
+
+    <item
+        android:drawable="@drawable/wheelrighthandle2"
+        android:duration="20"/>
+
+    <item
+        android:drawable="@drawable/wheelrighthandle3"
+        android:duration="20"/>
+
+    <item
+        android:drawable="@drawable/wheelrighthandle4"
+        android:duration="20"/>
+
+    <item
+        android:drawable="@drawable/wheelrighthandle5"
+        android:duration="20"/>
+
+    <item
+        android:drawable="@drawable/wheelrighthandle6"
+        android:duration="20"/>
+
+    <item
+        android:drawable="@drawable/wheelrighthandle7"
+        android:duration="20"/>
+
+    <item
+        android:drawable="@drawable/wheelrighthandle8"
+        android:duration="20"/>
+
+    <item
+        android:drawable="@drawable/wheelrighthandle9"
+        android:duration="20"/>
+
+</animation-list>

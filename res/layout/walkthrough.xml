@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainback"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        layout="@layout/main_menu" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:android1="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="15px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:android1="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/whitebox"
+            android:orientation="vertical" >
+
+            <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+         
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:minLines="2"
+            android:singleLine="false"
+            android:focusable="true"
+            android:enabled="true"
+            android:autoLink="all"
+            android:scrollbars = "vertical"
+            android:textColor="#000000"
+            style="@style/ScaleFontMedium" />
+        </ScrollView>
+            
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="15px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:android1="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="15px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0" />
+
+        <CheckBox
+            android:id="@+id/cb_audio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:text="Play Audio"
+            android:checked="true"
+            android:contentDescription="Play Audio"
+            />
+
+        <TextView
+            android:layout_width="15px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0" />
+        
+            <Button
+            android:id="@+id/btn_Walkthrough_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/blueboxbutton"
+            android:text="Setup Contacts"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+            
+        
+
+        <TextView
+            android:layout_width="15px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="15px"
+        android:layout_weight="0" />
+
+</LinearLayout>

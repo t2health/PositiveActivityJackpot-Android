@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainback"
+    android:orientation="vertical" >
+
+    <view
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="org.t2health.paj.classes.AccessibleWebView" />
+
+    <LinearLayout
+        android:id="@+id/navigationToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="72dip"
+        android:gravity="center_vertical" 
+        android:layout_weight="0"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right" />
+    </LinearLayout>
+
+</LinearLayout>

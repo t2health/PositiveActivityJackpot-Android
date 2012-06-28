@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP STRINGS -->
+    <string name="app_name">Positive Activity Jackpot</string>
+    <string name="search_hint">Search Location</string>
+    <string name="about_content">Placeholder</string>
+    <string name="accessibility_toast_prefix">Toast Dialog: </string>
+
+    <!-- AR STRINGS -->
+    <string name="ar_popup">This isn\’t a camera, you can\’t take pictures. Move it around and you\’ll find activities to do in your area.</string>
+
+    <!-- MAIN MENU STRINGS -->
+    <string name="main_logo">Positive Activity Jackpot Logo</string>
+    <string name="main_create">Create Activity</string>
+    <string name="main_create_desc">main menu create activity</string>
+    <string name="main_learn">Learn</string>
+    <string name="main_coach">Setup</string>
+    <string name="main_rate">Rate</string>
+    <string name="main_previous">My Activities</string>
+    <string name="main_jackpot">Jackpot</string>
+    <string name="main_AR">AR</string>
+    <string name="main_random">Random</string>
+    <string name="main_settings">Settings</string>
+
+    <!-- JACKPOT STRINGS -->
+    <string name="jackpot_summary">Select the number of participants</string>
+    <string name="jackpot_select">Select Activity</string>
+    <string name="jackpot_instruct">Pull the handle or shake the phone to have an activity selected for you.</string>
+    <string name="jackpot_rolling">*** Rolling ***</string>
+    <string name="jackpot_warnselect">First select an activity by pulling the handle!</string>
+
+    <!-- LOCAL OPTIONS STRINGS -->
+    <string name="local_select">Click to select a local option (if any are below):</string>
+    <string name="local_save">Save Activity</string>
+
+    <!-- TIPS STRINGS -->
+    <string name="tips_create">Choose Jackpot if you would like to have an activity chosen for you, choose Customize if you want to make your own selection, or Find Something Nearby to see activities in your immediate area.</string>
+    <string name="tips_localoption">Now that you have selected an activity, choose a local option (if any are listed below, every activity does not have a local option). Then save your activity.</string>
+    <string name="tips_summary">This is the last step! Once you\'re done here either go and do your chosen activity or save it for later.</string>
+    <string name="tips_jackpot">Here you can spin the wheels to automatically create an activity, you can keep spinning until you find an activity you like.</string>
+    <string name="tips_learn">Here you can learn more about this positive activities and why they are good for your mental health!</string>
+    <string name="tips_list">Here we walk you through three or four steps to customize an activity that sounds interesting to you! Scroll the options with your finger or pull the lever.</string>
+    <string name="tips_prefs">Here you can change application settings, click to toggle items on and off.</string>
+    <string name="tips_rate">You can rate each part of an activity. The higher the rating, the more likely they are to show up in your jackpot!</string>
+    <string name="tips_saved">These are all the activities you have previously saved. If you click on one, you can navigate or call to the local option (if available), invite others to join you and/or post the activity to your social media, and rate your enjoyment of the activity.</string>
+    <string name="tips_setup">This tab allows you to learn more about the app, change your contact list preferences, change your activity preferences, and change application settings.</string>
+    <string name="tips_category">Deselect all activities you don\’t enjoy.</string>
+    <string name="tips_contacts">These are all the contacts you have in your phone, deselect contacts that you do not wish to have as options when selecting activities.</string>
+
+    <!-- GENERAL STRINGS -->
+    <string name="general_ok">Ok</string>
+    <string name="general_notips">Do not show this pop-up again</string>
+
+    <!-- HOME SCREEN -->
+    <string name="home_jackpot">Jackpot!</string>
+    <string name="home_customize">Customize an Activity</string>
+    <string name="home_nearby">Find Something Nearby</string>
+    <string name="home_accessibility">The Augmented Reality portion of this application is not compatible with Accessibility features for the visually impaired.</string>
+    <string name="home_setupfirst">Before you can select activities, you need to setup your contacts.\r\n\r\nVisit the setup screen by clicking Settings at the top.</string>
+    <string name="home_nogps">Your GPS is currently disabled. Please enable GPS before using this feature.</string>
+    
+    <!-- COACH SCREEN -->
+    <string name="coach_one">I\m Sue, your setup coach. I will help you through the setup of this application.</string>
+    <string name="coach_two">First, let me introduce you to the Positive Activities app. Participating in fun, positive activities helps improve the overall quality of life. This is a common psychological tool used in suicide prevention and depression. Even if you don’t suffer from suicidal thoughts or depression, participating in positive activities has been found to help most individuals.</string>
+    <string name="coach_three">In the next few slides, I’m going to help you set up this app. First you will be asked to deselect the types of activities that you do not like and then choose individuals in your phone’s contact list who you might want to do an activity with in the future. You will have the option in this app to participate in an activity alone, with one other person (Pair) or in a group.</string>
+    <string name="coach_title">Welcome to\r\nPositive Activities</string>
+
+    <!-- SAVEDACTIVITIES SCREEN -->
+    <string name="saved_emptylist">\r\n\r\n\r\n\r\n\r\n\r\nCreate some activities first!</string>
+
+    <!-- SETUP SCREEN -->
+    <string name="setup_learn">Learn</string>
+    <string name="setup_contacts">Contacts</string>
+    <string name="setup_activities">Activities</string>
+    <string name="setup_prefs">Preferences</string>
+    <string name="setup_minactivities">Please select at least 10 activities!</string>
+    <string name="setup_mincontacts">Please select at least 5 contacts!</string>
+    
+    <!-- EULA STRINGS -->
+    <string name="eula_activity_title">Eula</string>
+    <string name="eula_title">License</string>
+    <string name="eula_accept">Accept</string>
+    <string name="eula_refuse">Refuse</string>
+    <string name="eula_content">        <![CDATA[
+		<p>National Center for Telehealth and Technology ("T2")</p>
+		<p>Software End User License Agreement</p>
+		
+		<p>By agreeing to have any of T2 software products installed on to your device and by subsequent use of the Software, you agree to comply with the terms of this general End User Licence Agreement ("EULA") where no specific agreement is in place between T2 and the user of the software. If you do not agree to the terms of this EULA, do not install or use the Software but uninstall it from your device. This EULA applies to any upgrades and supplements to the original Software provided and is referred to on your opening screen.</p>
+		<hr />
+		
+		<ol>
+			<li>
+				<p>The Licensed Software is owned by The National Center for Telehealth and Technology ("T2") a division of the US Defense Centers of Excellence ("DCOE") and the United States Department of Defense ("DOD"). The Software is licensed, not sold, only on the terms of this EULA. Acceptance and installation of the software indicates your acceptance of the terms and conditions of this EULA.</p>
+				<p>Upon installation of the software, you will acquire the right to use the Software, directly from T2.  You assume responsibility for the selection of the program to achieve your intended results, and for the installation, use and results obtained from the Licensed Software.</p>
+			</li>
+			
+			<li>In consideration of your acceptance of the terms and conditions contained in this EULA, T2 grants you a non-exclusive license to use the Licensed Software and the associated documentation for your own needs on one device. You are not licensed to rent, lease, transfer or distribute the Software.</li>
+			
+			<li>Title to the Software, including media and documentation, remain with T2. You may not copy, reproduce or make data transmissions, in whole or in part, except as is necessary for back-up or archival purposes. You may not reverse engineer, translate, disassemble, decompile the Software or create similar software in whole or in part.</li>
+			
+			<li>The license is effective upon acceptance and installation of the Licensed Software and shall continue until terminated. You may terminate it at any time by uninstalling the Licensed Software. T2 has the right to terminate this Agreement if you fail to comply with any term or condition of this EULA. Upon termination you shall stop all use of the Software and uninstall the Licensed Software.</li>
+			
+			<li>Confidentiality of the Software will survive any termination of this EULA, to include the application, design, and functionality.</li>
+			
+			<li>This Software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</li>
+			
+			<li>In no event will T2 be liable for any loss of data, loss of use, or indirect, special, incidental or consequential damages in any way related to or arising out of the use of the Software. T2\s maximum liability shall in no event exceed the amounts paid to T2 for the Licensed Software.</li>
+			
+			<li>The prevailing party in any action or proceeding between T2 and End-User Licensee arising out of or related to this Agreement shall be entitled to recover reasonable legal fees and costs, including lawyers\ fees, which may be incurred.</li>
+			
+			<li>This Agreement shall be construed and enforced in accordance with the laws of the District of Columbia, United States of America and each party agrees to be subject to those relevant laws.</li>
+			
+			<li>You also acknowledge that it is your responsibility to protect and otherwise secure any information captured and stored by the software once installed on your device.</li>
+			
+			<li>Information captured and stored by the software program may be considered sensitive information. It is the end user\s responsibility to protect or otherwise secure the content captured and stored by the software once installed on the end user\s device.</li>
+		</ol>
+		
+		<p>It is understood and acknowledged that T2 has the absolute right to obtain injunctive relief to protect T2\s proprietary rights.</p>
+		
+		<p>By using the Software, you further agree that this is the complete and exclusive statement of the Agreement which supersedes any proposal or prior agreement, oral or written, and any other communications relating to the subject matter of this EULA.</p>
+		
+		<p>If any provision of this Agreement is held to be invalid or unenforceable the remaining provisions will not be affected.</p>
+		
+		<p>For statistical purposes T2 collects anonymous usage data and sends it to a data provider. By accepting this agreement, it is understood that this feature can be disabled through settings screen at any time.</p>
+		
+		<p>Disclaimer: The information in the application is not intended as a substitute for any type of professional medical services or training and should not be used for such purposes. The information is provided as is and the author does not warrant the accuracy of the information. This information is not meant to diagnose or develop permanent treatment plans for health emergencies, health problems or diseases. If you are in an emergency or life-threatening medical situation, seek medical assistance immediately. Dial emergency number (911 in the USA) for emergency medical services.</p>
+		
+		<p>External Links: The appearance of external hyperlinks does not constitute endorsement by the United States Department of Defense of the linked websites, or the information, products or services contained therein. The United States Department of Defense does not exercise any editorial control over the information you may find at these locations. All links are provided consistent with the stated purpose of these DoD websites.</p>
+		
+		<P>Activity suggestions were adopted from: Skills Training Manual for Treating Borderline Personality Disorder by Marsha M. Linehan, 1st Edition (1993), p. 157-159. Copyright Guilford Press. Reprinted with permission of The Guilford Press. As well as MacPhillamy, D. J., & Lewinsohn, P. M. (1982). The pleasant events schedule: Studies on reliability, validity, and scale intercorrelation. Journal of Consulting and Clinical Psychology, 50(3), 363-380. 	
+	]]>
+    </string>
+    <string name="learn_content">        <![CDATA[<font face="Cambria">
+        
+        <BR><center><B>Learn More</B></center>
+<P><B>Positive Activity Jackpot</B> is a tool containing research supported techniques to help
+individuals with depression, suicidal behaviors or those with no mental health issues.
+By frequently participating in <I>fun, positive activities</I>, individuals are thought to build up
+a resiliency against various future mental health problems. <U>This app should not take the
+place of regular mental health treatment or be used exclusively to treat these issues.</U> This
+application can only augment other treatments. If at any point you feel suicidal please call the
+crisis care hotline at <B><U>(800)273-8255</U></B>.
+
+<P><B>Positive Activity Jackpot</B> is an application that allows you to choose from a list of over 375
+possible activities, have the app choose a random activity for you, or show you activities
+in your immediate surroundings using <B>augmented reality</B>, or AR, technology. All these
+activities can be done either alone, in a pair or with a group. This app uses your contacts list
+to easily invite others to participate either through text, phone, or email. It also lets you post a
+chosen activity to your social media feeds, such as Facebook or Twitter.
+
+<P><B>Positive Activity Jackpot</B> is smart; meaning it takes your past activity ratings (you are asked
+to rate each activity after it is performed) and teaches the app what you generally <B>like</B> and
+<B>don’t like</B>. While this doesn’t eliminate possible future activities (only you can do that in
+the Settings tab), it makes it more likely that enjoyable activities will be suggested for you
+under the Jackpot tab. This app also gives you a lot of personal controls, letting you deselect
+activities you don’t enjoy or changing possible friends you might like to do an activity with.
+
+<P>Activity suggestions were adapted from: Skills Training Manual for Treating Borderline Personality Disorder by 
+Marsha M. Linehan, 1st Edition (1993), p. 157-159. Copyright Guilford Press. Reprinted with permission of The Guilford Press. 
+As well as MacPhillamy, D. J., & Lewinsohn, P. M. (1982). The pleasant events schedule: Studies on reliability, validity, and 
+scale intercorrelation. Journal of Consulting and Clinical Psychology, 50(3), 363-380.
+
+            ]]>
+    </string>
+
+</resources>

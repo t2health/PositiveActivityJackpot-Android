@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainback"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        layout="@layout/main_menu" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/list_wheeltopleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/wheeltopleft" />
+
+        <ImageView
+            android:id="@+id/list_wheeltop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/wheeltop" />
+
+        <ImageView
+            android:id="@+id/list_wheeltopright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/wheeltopright" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/list_wheelleft"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@drawable/wheelleft" />
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/category_activityWheel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:contentDescription="Casino wheel"
+            android:focusable="true" />
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/activity_activityWheel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:contentDescription="Casino wheel"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/list_wheelright"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@drawable/wheelright" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/list_wheelbottomleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/wheelbottomleft" />
+
+        <ImageView
+            android:id="@+id/list_wheelbottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/wheelbottom" />
+
+        <ImageView
+            android:id="@+id/list_wheelbottomright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/wheelbottomright" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip" >
+
+        <!-- LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/nothing"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/nothing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                style="@style/ScaleFontMedium"
+                android:text="Toggle All/None" />
+
+            <CheckBox
+                android:id="@+id/chkToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0" />
+        </LinearLayout> -->
+
+        <TextView
+            android:id="@+id/tv_infobox"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/whitebox"
+            android:ellipsize="none"
+            android:gravity="center_vertical|center_horizontal"
+            android:minLines="2"
+            android:singleLine="false"
+            android:text="Deselect activities that you do not wish to have available in Activity Jackpot."
+            android:textColor="#000000"
+            style="@style/ScaleFontMedium" />
+        
+        <LinearLayout
+            android:id="@+id/ll_accessibility"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+        
+            <Button
+            android:id="@+id/btn_ChangeCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blueboxbutton"
+            android:minHeight="20dp"
+            android:paddingTop="5dip"
+            android:text="Category"
+            android:contentDescription="Next Category"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+            
+            <Button
+            android:id="@+id/btn_ChangeActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blueboxbutton"
+            android:minHeight="20dp"
+            android:paddingTop="5dip"
+            android:text="Activity"
+            android:contentDescription="Next Activity"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+            
+            <Button
+            android:id="@+id/btn_ToggleActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blueboxbutton"
+            android:minHeight="20dp"
+            android:paddingTop="5dip"
+            android:text="Toggle"
+            android:contentDescription="Toggle Activity"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_Setup_SelectActivities"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blueboxbutton"
+            android:minHeight="30dp"
+            android:paddingTop="5dip"
+            android:text="Done"
+            android:textColor="#ffffff"
+            android:contentDescription="Done"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

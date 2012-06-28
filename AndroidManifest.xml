@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="t2.paj"
+    android:versionCode="11"
+    android:versionName="1.8" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- uses-feature android:name="android.hardware.telephony" android:required="false"/ -->
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" >
+    </uses-feature>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" >
+    </uses-feature>
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/WindowTitleBackground" >
+
+        <!-- uses-library android:name="com.google.android.maps"/ -->
+
+        <activity
+            android:name="org.t2health.paj.activity.StartupActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.t2health.paj.activity.EulaActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.SplashActivity"
+            android:label="Activity Jackpot"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.CreateActivity"
+            android:label="Home screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.WalkthroughActivity"
+            android:label="Walthrough Setup"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.LearnActivity"
+            android:label="Learn screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.SetupActivity"
+            android:label="Setup screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.SavedActivities"
+            android:label="Saved Activities"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.RateActivity"
+            android:label="Ratings screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.SetupContactsActivity"
+            android:label="Setup Contacts screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.SetupCategoriesActivity"
+            android:label="Setup Categories screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.JackpotActivity"
+            android:label="Jackpot screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.ListActivity"
+            android:label="Activity List screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.LocalOptionsActivity"
+            android:label="Local Options screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.SummaryActivity"
+            android:label="Activity Summary screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.PreferencesActivity"
+            android:label="Preferences screen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.t2health.paj.activity.ARActivity"
+            android:label="Augmented Reality screen"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="org.t2health.paj.activity.PAJReminder"
+            android:label="Reminder"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <service android:name="org.t2health.paj.classes.ScheduleService" />
+        <service android:name="org.t2health.paj.classes.NotifyService" />
+    </application>
+
+</manifest>

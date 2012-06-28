@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dip"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/icon_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/main_logo"
+        android:src="@drawable/arheader" />
+
+</LinearLayout>
